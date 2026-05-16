@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: content-backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ew-content_db
+    username: postgres
+    password: SZGzhako2010
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
